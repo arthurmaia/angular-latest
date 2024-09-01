@@ -1,0 +1,8 @@
+<h1>Hello World {{ count() }}</h1>
+
+<button (click)="decrement()">-</button>
+<button (click)="increment()">+</button>
+
+@if (isComputedRendered()) {
+<h2>Computed: {{ computed() }}</h2>
+}
